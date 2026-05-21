@@ -8,7 +8,7 @@ import { Tabs } from '../components/ui/tabs';
 import { Alert } from '../components/ui/alert';
 import TopNav from '../components/TopNav';
 
-const statusVariant: Record<string, 'success' | 'warning' | 'danger' | 'info'> = {
+const statusVariant: Record<string, 'default' | 'success' | 'warning' | 'danger' | 'info'> = {
   upcoming: 'info',
   ongoing: 'success',
   completed: 'default',

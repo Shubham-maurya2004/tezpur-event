@@ -31,7 +31,7 @@ const CreateEvent: React.FC = () => {
     setMessage('');
     setLoading(true);
     try {
-      await eventAPI.create(form);
+      await eventAPI.create(form as any);
       setMessage('Event created successfully!');
       setForm({ name: '', category: 'sports', eventType: '', description: '', venue: '', startDate: '', endDate: '', enrollmentDeadline: '', maxParticipants: 50 });
       setTimeout(() => navigate('/admin/events'), 1500);

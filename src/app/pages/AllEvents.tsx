@@ -7,7 +7,7 @@ import { Badge } from '../components/ui/badge';
 import { Dialog } from '../components/ui/dialog';
 import { Alert } from '../components/ui/alert';
 
-const statusVariant: Record<string, 'success' | 'warning' | 'danger' | 'info'> = {
+const statusVariant: Record<string, 'default' | 'success' | 'warning' | 'danger' | 'info'> = {
   upcoming: 'info',
   ongoing: 'success',
   completed: 'default',
